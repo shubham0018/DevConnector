@@ -5,7 +5,7 @@ import { getCurrentProfile } from "../../actions/profile";
 
 const Dashboard = ({ getCurrentProfile, auth, profile }) => {
     useEffect(() => {
-        getCurrentProfile();
+        getCurrentProfile(); // eslint-disable-next-line
     }, []);
     return <div> Dashboard </div>
 };
