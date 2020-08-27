@@ -5,10 +5,6 @@ const path = require("path");
 // Connect Database
 connectDB();
 
-app.get("/", (req, res) => {
-  res.send("Our MERN server has started!");
-});
-
 // Init MiddleWare
 app.use(express.json({ extended: false }));
 
